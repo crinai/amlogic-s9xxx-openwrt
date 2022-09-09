@@ -58,6 +58,7 @@ env:
   CONFIG_FILE: router-config/openwrt-my/.config
   DIY_P1_SH: router-config/openwrt-my/diy-part1.sh
   DIY_P2_SH: router-config/openwrt-my/diy-part2.sh
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   TZ: Asia/Shanghai
 
 jobs:
