@@ -143,6 +143,7 @@ jobs:
           artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
           allowUpdates: true
           token: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           body: |
             This is OpenWrt firmware for Amlogic s9xxx tv box
             * Firmware information
