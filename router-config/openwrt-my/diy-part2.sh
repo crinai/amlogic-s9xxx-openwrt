@@ -45,7 +45,7 @@ git -C package/luci-app-adguardhome checkout 1.8-9
 
 #add openwrt-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-svn co https://github.com/openwrt/packages/branches/openwrt-21.02/utils/parted package/parted
+svn co https://github.com/openwrt/packages/branches/openwrt-22.03/utils/parted package/parted
 # Add luci-app-amlogic
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 # Add p7zip
